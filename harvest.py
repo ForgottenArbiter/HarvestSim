@@ -1,4 +1,5 @@
 from collections import defaultdict
+from typing import Tuple
 import functools
 from dataclasses import dataclass
 import scipy
@@ -74,6 +75,7 @@ class Settings:
     t2_dropchance: float = 0.1
     t1_dropchance: float = 0.02
     t4_seed_chance: float = 0.01  # Low confidence
+    sacred_blossom_dropchance: float = 0.10  # Low confidence
     t2_binom_n: float = 8
     t2_binom_p: float = 0.75
     t3_binom_n: float = 3
@@ -113,7 +115,8 @@ def get_expected_lifeforce(num_seeds: int, seed_tier: SeedTier, area_iiq: int, p
     return lifeforce_per_monster * expected_monsters * lifeforce_final_mult
 
 
-def get_crop_lifeforce_distribution(area_iiq: int, pack_size: int, settings: Settings):
+def get_crop_value_distribution_directly(area_iiq: int, pack_size: int, color_value: float, settings: Settings) -> Tuple[np.ndarray, np.ndarray]:
+    # Define the distribution of every seed type
     t4_chance = settings.t4_seed_chance
     if settings.heart_of_the_grove:
         t4_chance *= 1.6
@@ -125,29 +128,69 @@ def get_crop_lifeforce_distribution(area_iiq: int, pack_size: int, settings: Set
                   scipy.stats.binom(settings.t2_binom_n, settings.t2_binom_p), list(range(settings.t2_binom_n + 1)))
     t1 = SeedTier(settings.t1_lifeforce, settings.t1_dropchance, False, None, list(range(24)))
 
+    # Calculate the expected value for every possible number of seeds of each type
     all_seed_supports = (t4.support, t3.support, t2.support)
-    lifeforce_probability_dict = defaultdict(int)
+    lifeforce_value_dict = defaultdict(float)
     for t4_seeds, t3_seeds, t2_seeds in itertools.product(*all_seed_supports):
         t1_seeds = 23 - (t4_seeds + t3_seeds + t2_seeds)
         probability = t4.distribution.pmf(t4_seeds) * t3.distribution.pmf(t3_seeds) * t2.distribution.pmf(t2_seeds)
         expected_lifeforce = 0
         for num_seeds, tier in [(t4_seeds, t4), (t3_seeds, t3), (t2_seeds, t2), (t1_seeds, t1)]:
             expected_lifeforce += get_expected_lifeforce(num_seeds, tier, area_iiq, pack_size, settings)
-        lifeforce_probability_dict[expected_lifeforce] += probability
+        expected_lifeforce_value = expected_lifeforce * color_value
+        expected_sacred_value = t4_seeds * settings.sacred_blossom_value * settings.sacred_blossom_dropchance
+        lifeforce_value_dict[expected_lifeforce_value + expected_sacred_value] += probability
 
-    support_probability_pairs = sorted(lifeforce_probability_dict.items())
-    lifeforce_support, lifeforce_probabilities = zip(*support_probability_pairs)
-    return np.array(lifeforce_support), np.array(lifeforce_probabilities)
+    support_probability_pairs = sorted(lifeforce_value_dict.items())
+    value_support, value_probabilities = zip(*support_probability_pairs)
+    return np.array(value_support), np.array(value_probabilities)
 
 
-def get_value_distribution_from_lifeforce_distribution(support, probabilities, settings: Settings):
-    vivid_support = support * settings.yellow_value
-    wild_support = support * settings.purple_value
-    primal_support = support * settings.blue_value
+def reweight_probabilities_for_sextant_reroll(weights: np.ndarray, settings: Settings) -> np.ndarray:
+    """
+    Get the actual weight for the randomly chosen crop assuming the sextant reroll implementation
+
+    For example, if the input weights are (1/3, 1/3, 1/3) and we are using a yellow sextant, the probability
+    of the non-guaranteed crop being yellow is (1/9)/(5/9) = 1/5. Therefore, we would return (1/5, 2/5, 2/5)
+    :param weights: Starting weights for each color, in the order [yellow, purple, blue]
+    :param settings: The settings (used here to specify the sextant color)
+    :return: New weights for each color, in the order [yellow, purple, blue]
+    """
+    if len(weights) != 3:
+        raise ValueError("The given weights must be an array of length 3 (yellow, purple, blue)")
+    probabilities = weights / np.sum(weights)
+    if settings.yellow_sextant:
+        sextant_index = 0
+    elif settings.purple_sextant:
+        sextant_index = 1
+    elif settings.blue_sextant:
+        sextant_index = 2
+    else:
+        return weights
+    sextant_prob = probabilities[sextant_index]
+    other_prob = np.delete(probabilities, sextant_index)
+    new_sextant_prob = sextant_prob * sextant_prob
+    new_other_prob = 2 * sextant_prob * other_prob
+    new_prob = np.insert(new_other_prob, sextant_index, new_sextant_prob)
+    new_prob = new_prob / np.sum(new_prob)
+    return new_prob
+
+
+def get_random_crop_value_distribution(area_iiq: int, pack_size: int, settings: Settings) -> Tuple[np.ndarray, np.ndarray]:
+    vivid_support, vivid_probabilities = get_crop_value_distribution_directly(area_iiq, pack_size, settings.yellow_value, settings)
+    wild_support, wild_probabilities = get_crop_value_distribution_directly(area_iiq, pack_size, settings.purple_value, settings)
+    primal_support, primal_probabilities = get_crop_value_distribution_directly(area_iiq, pack_size, settings.blue_value, settings)
     total_support = np.concatenate([vivid_support, wild_support, primal_support])
-    vivid_probabilities = probabilities * (1 - settings.reduced_yellow_chance / 100)
-    wild_probabilities = probabilities * (1 - settings.reduced_purple_chance / 100)
-    primal_probabilities = probabilities * (1 - settings.reduced_blue_chance / 100)
+    vivid_weight = (1 - settings.reduced_yellow_chance / 100)
+    wild_weight = (1 - settings.reduced_purple_chance / 100)
+    primal_weight = (1 - settings.reduced_blue_chance / 100)
+    all_weights = np.array([vivid_weight, wild_weight, primal_weight])
+    if settings.sextant_reroll_implementation and has_sextant(settings):
+        # In this case, the probabilities of the non-guaranteed (random) crop are changed
+        all_weights = reweight_probabilities_for_sextant_reroll(all_weights, settings)
+    vivid_probabilities = vivid_probabilities * all_weights[0]
+    wild_probabilities = wild_probabilities * all_weights[1]
+    primal_probabilities = primal_probabilities * all_weights[2]
     total_probabilities = np.concatenate([vivid_probabilities, wild_probabilities, primal_probabilities])
     total_probabilities /= np.sum(total_probabilities)
     new_order = np.argsort(total_support)
@@ -183,38 +226,39 @@ def get_max_pmf(support_1, support_2, pmf_1, pmf_2):
     return combined_support, max_pmf
 
 
-def get_crop_pair_value(lifeforce_support, lifeforce_probabilities, settings: Settings):
-    value_support, value_probabilities = get_value_distribution_from_lifeforce_distribution(
-        lifeforce_support, lifeforce_probabilities, settings)
+def get_crop_pair_value(area_iiq: int, pack_size: int, settings: Settings) -> float:
+    """
+    Get the expected value of a random pair of crops, assuming we harvest the most valuable one
+    :param area_iiq: The increased item quantity of the area
+    :param pack_size: The increased pack size of the area
+    :param settings: The settings
+    :return: The expected value of the crop pair
+    """
+    random_crop_support, random_crop_probabilities = get_random_crop_value_distribution(area_iiq, pack_size, settings)
     no_wilt_chance = 10 if settings.heart_of_the_grove else 0
-    if not has_sextant(settings):
-        value_cdf = np.cumsum(value_probabilities)
-        max_value_cdf = value_cdf * value_cdf
-        max_value_pmf = np.diff(max_value_cdf, prepend=0)
-        expected_crop_value = np.dot(value_support, value_probabilities)
-        expected_max_value = np.dot(value_support, max_value_pmf)
-        total_value = (no_wilt_chance / 100) * expected_crop_value * 2 + (1 - no_wilt_chance / 100) * expected_max_value
-    else:
+    if has_sextant(settings):
         if settings.blue_sextant:
             sextant_lifeforce_value = settings.blue_value
         elif settings.yellow_sextant:
             sextant_lifeforce_value = settings.yellow_value
         else:
             sextant_lifeforce_value = settings.purple_value
-        if settings.sextant_reroll_implementation:
-            #  TODO: Unimplemented
-            raise NotImplementedError()
-        else:
-            guaranteed_support = lifeforce_support * sextant_lifeforce_value
-            guaranteed_pmf = lifeforce_probabilities
-            random_support = value_support
-            random_pmf = value_probabilities
-            max_support, max_pmf = get_max_pmf(guaranteed_support, random_support, guaranteed_pmf, random_pmf)
-            expected_max_value = np.dot(max_support, max_pmf)
-            expected_guaranteed_value = np.dot(guaranteed_support, guaranteed_pmf)
-            expected_random_value = np.dot(random_support, random_pmf)
-            expected_combined_value = expected_guaranteed_value + expected_random_value
-            total_value = (no_wilt_chance / 100) * expected_combined_value + (1 - no_wilt_chance / 100) * expected_max_value
+        guaranteed_support, guaranteed_pmf = get_crop_value_distribution_directly(area_iiq, pack_size,
+                                                                                  sextant_lifeforce_value, settings)
+        random_support, random_pmf = random_crop_support, random_crop_probabilities
+        max_support, max_pmf = get_max_pmf(guaranteed_support, random_support, guaranteed_pmf, random_pmf)
+        expected_max_value = np.dot(max_support, max_pmf)
+        expected_guaranteed_value = np.dot(guaranteed_support, guaranteed_pmf)
+        expected_random_value = np.dot(random_support, random_pmf)
+        expected_combined_value = expected_guaranteed_value + expected_random_value
+        total_value = (no_wilt_chance / 100) * expected_combined_value + (1 - no_wilt_chance / 100) * expected_max_value
+    else:
+        value_cdf = np.cumsum(random_crop_probabilities)
+        max_value_cdf = value_cdf * value_cdf
+        max_value_pmf = np.diff(max_value_cdf, prepend=0)
+        expected_crop_value = np.dot(random_crop_support, random_crop_probabilities)
+        expected_max_value = np.dot(random_crop_support, max_value_pmf)
+        total_value = (no_wilt_chance / 100) * expected_crop_value * 2 + (1 - no_wilt_chance / 100) * expected_max_value
 
     return total_value
 
@@ -247,8 +291,7 @@ def get_harvest_spawn_chance(settings: Settings):
 
 def get_overall_map_value(settings: Settings):
     area_iiq, pack_size = get_area_stats(settings)
-    support, probabilities = get_crop_lifeforce_distribution(area_iiq, pack_size, settings)
-    crop_pair_value = get_crop_pair_value(support, probabilities, settings)
+    crop_pair_value = get_crop_pair_value(area_iiq, pack_size, settings)
     sacred_grove_value = get_sacred_grove_value(crop_pair_value, settings)
     average_harvest_value = get_harvest_spawn_chance(settings) * sacred_grove_value
     return average_harvest_value
