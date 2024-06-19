@@ -2,19 +2,22 @@ from collections import defaultdict
 from typing import Tuple
 import functools
 from dataclasses import dataclass
+import copy
 import scipy
 import itertools
 import numpy as np
 
 
+PACK_SIZE_MULTIPLIER = 1/2.6
+
 @dataclass
 class Settings:
 
     # These parameters are economic parameters and should be changed to reflect the current market prices
-    yellow_value: float = 1/16
-    blue_value: float = 1/26
-    purple_value: float = 1/26
-    sacred_blossom_value: float = 230.0
+    yellow_value: float = 240/2200
+    blue_value: float = 240/5000
+    purple_value: float = 240/4600
+    sacred_blossom_value: float = 240.0
 
     # This controls the BASE quantity of your maps (in percent)
     # Do not add bonuses from map quality, fragments, kirac crafts, or atlas passives
@@ -272,7 +275,7 @@ def get_sacred_grove_value(crop_pair_value, settings: Settings):
 def get_area_stats(settings: Settings):
     area_iiq = int(settings.base_map_quantity * (1 + settings.increased_map_modifier_effect / 100))
     area_iiq += settings.fragment_quantity + settings.kirac_craft_quantity + settings.increased_quantity + settings.map_quality
-    pack_size = int(settings.base_map_quantity * (1 + settings.increased_map_modifier_effect / 100) / 2.6)
+    pack_size = int(settings.base_map_quantity * (1 + settings.increased_map_modifier_effect / 100) * PACK_SIZE_MULTIPLIER)
     pack_size += settings.increased_pack_size + settings.fragment_pack_size
     return area_iiq, pack_size
 
@@ -295,3 +298,26 @@ def get_overall_map_value(settings: Settings):
     sacred_grove_value = get_sacred_grove_value(crop_pair_value, settings)
     average_harvest_value = get_harvest_spawn_chance(settings) * sacred_grove_value
     return average_harvest_value
+
+
+def set_settings_to_no_atlas(settings: Settings):
+    settings.guaranteed_harvest_spawn = True
+    settings.bumper_crop = False
+    settings.bountiful_harvest = False
+    settings.heart_of_the_grove = False
+    settings.doubling_season = False
+    settings.crop_rotation = False
+    settings.increased_t3_crop_chance = 0
+    settings.increased_quantity_of_lifeforce = 0
+    settings.duplicated_monsters_chance = 0
+    settings.reduced_blue_chance = 0
+    settings.reduced_purple_chance = 0
+    settings.reduced_yellow_chance = 0
+    settings.increased_quantity = 0
+    settings.increased_pack_size = 0
+    settings.kirac_craft_quantity = 0
+    settings.fragment_quantity = 0
+    settings.fragment_pack_size = 0
+    settings.blue_sextant = False
+    settings.yellow_sextant = False
+    settings.purple_sextant = False

@@ -2,9 +2,8 @@ import copy
 import dataclasses
 
 import harvest
-from harvest import Settings, get_overall_map_value
+from harvest import Settings
 import matplotlib.pyplot as plt
-import numpy as np
 
 BASE_NO_ATLAS_SETTINGS = Settings(
     bumper_crop=False,
@@ -90,39 +89,39 @@ def base_comparison():
     for map_quantity in map_quantities:
         regular_atlas_settings = copy.copy(REGULAR_ATLAS_SETTINGS)
         regular_atlas_settings.base_map_quantity = map_quantity
-        # regular_atlas_settings.guaranteed_harvest_spawn = True
-        # regular_atlas_settings.yellow_sextant = True
-        # regular_atlas_settings.fragment_pack_size = 40
+        regular_atlas_settings.guaranteed_harvest_spawn = True
+        regular_atlas_settings.yellow_sextant = True
+        regular_atlas_settings.fragment_pack_size = 40
         regular_values.append(harvest.get_overall_map_value(regular_atlas_settings))
         wandering_path_settings = copy.copy(WANDERING_PATH_ATLAS_SETTINGS)
         wandering_path_settings.base_map_quantity = map_quantity
-        # wandering_path_settings.guaranteed_harvest_spawn = True
-        # wandering_path_settings.yellow_sextant = True
-        # wandering_path_settings.fragment_pack_size = 40
+        wandering_path_settings.guaranteed_harvest_spawn = True
+        wandering_path_settings.yellow_sextant = True
+        wandering_path_settings.fragment_pack_size = 40
         # wandering_path_settings.increased_map_modifier_effect = 0
         wandering_path_values.append(harvest.get_overall_map_value(wandering_path_settings))
         grand_design_settings = copy.copy(GRAND_DESIGN_ATLAS_SETTINGS)
         grand_design_settings.base_map_quantity = map_quantity
-        # grand_design_settings.guaranteed_harvest_spawn = True
-        # grand_design_settings.yellow_sextant = True
-        # grand_design_settings.fragment_pack_size = 40
+        grand_design_settings.guaranteed_harvest_spawn = True
+        grand_design_settings.yellow_sextant = True
+        grand_design_settings.fragment_pack_size = 40
         grand_design_values.append(harvest.get_overall_map_value(grand_design_settings))
     plt.plot(map_quantities, regular_values, marker='x', label="Regular Tree")
     plt.plot(map_quantities, wandering_path_values, marker='o', label="Wandering Path")
     plt.plot(map_quantities, grand_design_values, marker='+', label="Grand Design")
     plt.axvline(26, 0, 70, linestyle="dotted", c='gray')
-    plt.text(26, 10, "(2 Mods)", horizontalalignment='center', bbox=dict(alpha=0.6, fc="white", ec="white"))
+    plt.text(26, 125, "(2 Mods)", horizontalalignment='center', bbox=dict(alpha=0.6, fc="white", ec="white"))
     plt.axvline(52, 0, 70, linestyle="dotted", c='gray')
-    plt.text(52, 10, "(4 Mods)", horizontalalignment='center', bbox=dict(alpha=0.6, fc="white", ec="white"))
+    plt.text(52, 125, "(4 Mods)", horizontalalignment='center', bbox=dict(alpha=0.6, fc="white", ec="white"))
     plt.axvline(78, 0, 70, linestyle="dotted", c='gray')
-    plt.text(78, 10, "(6 Mods)", horizontalalignment='center', bbox=dict(alpha=0.6, fc="white", ec="white"))
+    plt.text(78, 125, "(6 Mods)", horizontalalignment='center', bbox=dict(alpha=0.6, fc="white", ec="white"))
     plt.axvline(104, 0, 70, linestyle="dotted", c='gray')
-    plt.text(104, 10, "(8 Mods)", horizontalalignment='center', bbox=dict(alpha=0.6, fc="white", ec="white"))
+    plt.text(104, 125, "(8 Mods)", horizontalalignment='center', bbox=dict(alpha=0.6, fc="white", ec="white"))
     plt.legend(loc="best")
     plt.xlabel("Base Map Quantity")
     plt.ylabel("Expected Sacred Grove Value (Chaos)")
-    # plt.title("Harvest Value Comparison (Guaranteed Sacred Grove + Yellow Sextant)")
-    plt.title("Harvest Value Comparison (Alch and go, no sextants)")
+    plt.title("Harvest Value Comparison (Guaranteed Sacred Grove + Yellow Sextant)")
+    # plt.title("Harvest Yellow Lifeforce Comparison")
     plt.show()
 
 
@@ -241,24 +240,63 @@ def scarab_comparison():
     plt.plot(map_quantities, polished_values, marker='+', label="Polished Scarabs")
     plt.plot(map_quantities, gilded_values, marker='^', label="Gilded Scarabs")
     plt.plot(map_quantities, sacrifice_values, marker='v', label="Sacrifice Fragments")
-    # plt.axvline(26, 0, 70, linestyle="dotted", c='gray')
-    # plt.text(26, 52, "(2 Mods)", horizontalalignment='center', bbox=dict(alpha=0.6, fc="white", ec="white"))
-    # plt.axvline(52, 0, 70, linestyle="dotted", c='gray')
-    # plt.text(52, 52, "(4 Mods)", horizontalalignment='center', bbox=dict(alpha=0.6, fc="white", ec="white"))
-    # plt.axvline(78, 0, 70, linestyle="dotted", c='gray')
-    # plt.text(78, 52, "(6 Mods)", horizontalalignment='center', bbox=dict(alpha=0.6, fc="white", ec="white"))
-    # plt.axvline(104, 0, 70, linestyle="dotted", c='gray')
-    # plt.text(104, 52, "(8 Mods)", horizontalalignment='center', bbox=dict(alpha=0.6, fc="white", ec="white"))
     plt.xlabel("Base Map Quantity")
     plt.ylabel("Expected Sacred Grove Value (Chaos)")
     plt.title("Growing Hordes Comparison (2 Sextants)")
     plt.legend(loc="best")
     plt.show()
 
+def yellow_sextant_profit():
+    map_quantities = list(range(0, 130, 10))
+    regular_values = []
+    grand_design_values = []
+    wandering_path_values = []
+    for map_quantity in map_quantities:
+        regular_atlas_settings = copy.copy(REGULAR_ATLAS_SETTINGS)
+        regular_atlas_settings.base_map_quantity = map_quantity
+        regular_atlas_settings.guaranteed_harvest_spawn = True
+        regular_atlas_settings.fragment_pack_size = 28
+        without_sextant = harvest.get_overall_map_value(regular_atlas_settings)
+        regular_atlas_settings.yellow_sextant = True
+        with_sextant = harvest.get_overall_map_value(regular_atlas_settings)
+        regular_values.append(with_sextant - without_sextant)
+        wandering_path_settings = copy.copy(WANDERING_PATH_ATLAS_SETTINGS)
+        wandering_path_settings.base_map_quantity = map_quantity
+        wandering_path_settings.guaranteed_harvest_spawn = True
+        wandering_path_settings.fragment_pack_size = 28
+        without_sextant = harvest.get_overall_map_value(wandering_path_settings)
+        wandering_path_settings.yellow_sextant = True
+        with_sextant = harvest.get_overall_map_value(wandering_path_settings)
+        wandering_path_values.append(with_sextant - without_sextant)
+        grand_design_settings = copy.copy(GRAND_DESIGN_ATLAS_SETTINGS)
+        grand_design_settings.base_map_quantity = map_quantity
+        grand_design_settings.guaranteed_harvest_spawn = True
+        grand_design_settings.fragment_pack_size = 28
+        without_sextant = harvest.get_overall_map_value(grand_design_settings)
+        grand_design_settings.yellow_sextant = True
+        with_sextant = harvest.get_overall_map_value(grand_design_settings)
+        grand_design_values.append(with_sextant - without_sextant)
+    plt.plot(map_quantities, regular_values, marker='x', label="Regular Tree")
+    plt.plot(map_quantities, wandering_path_values, marker='o', label="Wandering Path")
+    plt.plot(map_quantities, grand_design_values, marker='+', label="Grand Design")
+    plt.axvline(26, 0, 70, linestyle="dotted", c='gray')
+    plt.text(26, 80, "(2 Mods)", horizontalalignment='center', bbox=dict(alpha=0.6, fc="white", ec="white"))
+    plt.axvline(52, 0, 70, linestyle="dotted", c='gray')
+    plt.text(52, 80, "(4 Mods)", horizontalalignment='center', bbox=dict(alpha=0.6, fc="white", ec="white"))
+    plt.axvline(78, 0, 70, linestyle="dotted", c='gray')
+    plt.text(78, 80, "(6 Mods)", horizontalalignment='center', bbox=dict(alpha=0.6, fc="white", ec="white"))
+    plt.axvline(104, 0, 70, linestyle="dotted", c='gray')
+    plt.text(104, 80, "(8 Mods)", horizontalalignment='center', bbox=dict(alpha=0.6, fc="white", ec="white"))
+    plt.legend(loc="best")
+    plt.xlabel("Base Map Quantity")
+    plt.ylabel("Expected Sacred Grove Value (Chaos)")
+    # plt.title("Harvest Value Comparison (Guaranteed Sacred Grove + Yellow Sextant)")
+    plt.title("Extra revenue from yellow sextant")
+    plt.show()
+
 
 if __name__ == "__main__":
     print(harvest.get_overall_map_value(dataclasses.replace(WANDERING_PATH_ATLAS_SETTINGS, fragment_pack_size=40, base_map_quantity=100, yellow_sextant=True, guaranteed_harvest_spawn=True)))
     base_comparison()
-    # scarab_comparison()
-    # t3_comparison()
-    # sextant_comparison()
+    sextant_comparison()
+    yellow_sextant_profit()

@@ -1,0 +1,641 @@
+,map_seed,level,extra_harvest,harvest_yellow_sextant,harvest_increased_t3,harvest_t4_wilt,type,plot,favored,t1,t2,t3,t4,t3_name,quantity,rarity,pack_size,delirium
+0,3627647099,83,False,True,60,False,wild,0,True,14,7,2,0,thornmaw,248,192,68,0
+1,3627647099,83,False,True,60,False,vivid,1,False,17,6,0,0,,248,192,68,0
+2,3627647099,83,False,True,60,False,primal,2,False,17,6,0,0,,248,192,68,0
+3,3627647099,83,False,True,60,False,vivid,3,True,16,5,2,0,abberarach,248,192,68,0
+4,3627647099,83,False,True,60,False,vivid,4,False,14,8,1,0,whipleg,248,192,68,0
+5,3627647099,83,False,True,60,False,primal,5,True,15,6,2,0,crushclaw,248,192,68,0
+6,940838498,83,False,True,60,False,wild,6,False,16,6,1,0,infestation queen,238,168,70,0
+7,940838498,83,False,True,60,False,vivid,7,True,15,5,3,0,devourer,238,168,70,0
+8,940838498,83,False,True,60,False,wild,8,True,13,7,2,1,brambleback,238,168,70,0
+9,940838498,83,False,True,60,False,vivid,9,False,18,4,1,0,whipleg,238,168,70,0
+10,940838498,83,False,True,60,False,vivid,10,True,14,7,2,0,abberarach,238,168,70,0
+11,940838498,83,False,True,60,False,wild,11,False,19,4,0,0,,238,168,70,0
+12,940838498,83,False,True,60,False,vivid,12,False,17,6,0,0,,238,168,70,0
+13,940838498,83,False,True,60,False,vivid,13,True,17,4,2,0,devourer,238,168,70,0
+14,4123477958,83,False,True,60,False,vivid,14,False,17,6,0,0,,231,163,68,0
+15,4123477958,83,False,True,60,False,wild,15,True,15,6,2,0,bristle matron,231,163,68,0
+16,4123477958,83,False,True,60,False,primal,16,True,16,5,2,0,reborn,231,163,68,0
+17,4123477958,83,False,True,60,False,vivid,17,False,17,5,1,0,devourer,231,163,68,0
+18,4123477958,83,False,True,60,False,vivid,18,False,18,4,1,0,abberarach,231,163,68,0
+19,4123477958,83,False,True,60,False,vivid,19,True,16,6,1,0,watcher,231,163,68,0
+20,4123477958,83,False,True,60,False,vivid,20,True,13,8,2,0,whipleg,231,163,68,0
+21,4123477958,83,False,True,60,False,wild,21,False,17,4,2,0,infestation queen,231,163,68,0
+22,3359786018,83,False,True,60,False,vivid,22,True,13,8,2,0,vulture,215,137,68,0
+23,3359786018,83,False,True,60,False,vivid,23,False,17,6,0,0,,215,137,68,0
+24,3359786018,83,False,True,60,False,vivid,24,True,15,6,2,0,watcher,215,137,68,0
+25,3359786018,83,False,True,60,False,vivid,25,False,17,6,0,0,,215,137,68,0
+26,3359786018,83,False,True,60,False,vivid,26,False,18,5,0,0,,215,137,68,0
+27,3359786018,83,False,True,60,False,wild,27,True,14,7,2,0,hellion alpha,215,137,68,0
+28,3488178848,83,False,True,60,False,wild,28,False,18,5,0,0,,221,156,75,0
+29,3488178848,83,False,True,60,False,vivid,29,True,17,6,0,0,,221,156,75,0
+30,3488178848,83,False,True,60,False,vivid,30,True,18,4,1,0,devourer,221,156,75,0
+31,3488178848,83,False,True,60,False,primal,31,False,17,5,1,0,rhex matriarch,221,156,75,0
+32,3488178848,83,False,True,60,False,primal,32,True,17,5,1,0,crushclaw,221,156,75,0
+33,3488178848,83,False,True,60,False,vivid,33,False,17,6,0,0,,221,156,75,0
+34,3488178848,83,False,True,60,False,primal,34,True,17,4,2,0,rhex matriarch,221,156,75,0
+35,3488178848,83,False,True,60,False,vivid,35,False,16,7,0,0,,221,156,75,0
+36,3971852057,83,False,True,60,False,wild,36,True,14,6,3,0,infestation queen,153,82,48,0
+37,3971852057,83,False,True,60,False,vivid,37,False,17,6,0,0,,153,82,48,0
+38,3971852057,83,False,True,60,False,vivid,38,False,16,5,2,0,watcher,153,82,48,0
+39,3971852057,83,False,True,60,False,vivid,39,True,15,6,2,0,abberarach,153,82,48,0
+40,3971852057,83,False,True,60,False,vivid,40,False,14,8,1,0,devourer,153,82,48,0
+41,3971852057,83,False,True,60,False,primal,41,True,13,7,3,0,blisterlord,153,82,48,0
+42,3971852057,83,False,True,60,False,vivid,42,False,16,6,1,0,abberarach,153,82,48,0
+43,3971852057,83,False,True,60,False,wild,43,True,15,6,2,0,bristle matron,153,82,48,0
+44,33370743,83,False,True,60,False,primal,44,False,19,4,0,0,,241,158,75,0
+45,33370743,83,False,True,60,False,vivid,45,True,16,5,2,0,abberarach,241,158,75,0
+46,33370743,83,False,True,60,False,primal,46,False,15,7,1,0,crushclaw,241,158,75,0
+47,33370743,83,False,True,60,False,vivid,47,True,16,5,2,0,devourer,241,158,75,0
+48,33370743,83,False,True,60,False,vivid,48,True,14,6,3,0,whipleg,241,158,75,0
+49,33370743,83,False,True,60,False,primal,49,False,15,6,2,0,rhex matriarch,241,158,75,0
+50,33370743,83,False,True,60,False,vivid,50,False,18,5,0,0,,241,158,75,0
+51,33370743,83,False,True,60,False,primal,51,True,16,5,2,0,cystcaller,241,158,75,0
+52,2162726433,83,False,True,60,False,vivid,52,True,14,7,2,0,watcher,211,154,74,0
+53,2162726433,83,False,True,60,False,vivid,53,False,15,7,1,0,watcher,211,154,74,0
+54,2162726433,83,False,True,60,False,primal,54,False,15,6,2,0,rhex matriarch,211,154,74,0
+55,2162726433,83,False,True,60,False,vivid,55,True,13,7,3,0,watcher,211,154,74,0
+56,2162726433,83,False,True,60,False,wild,56,False,17,5,1,0,brambleback,211,154,74,0
+57,2162726433,83,False,True,60,False,vivid,57,True,15,7,1,0,watcher,211,154,74,0
+58,2837313556,83,False,True,60,False,primal,58,True,13,7,3,0,blisterlord,298,201,72,0
+59,2837313556,83,False,True,60,False,vivid,59,False,19,3,1,0,whipleg,298,201,72,0
+60,2837313556,83,False,True,60,False,wild,60,False,16,5,2,0,infestation queen,298,201,72,0
+61,2837313556,83,False,True,60,False,vivid,61,True,17,4,2,0,abberarach,298,201,72,0
+62,2837313556,83,False,True,60,False,vivid,62,True,16,6,1,0,devourer,298,201,72,0
+63,2837313556,83,False,True,60,False,wild,63,False,18,5,0,0,,298,201,72,0
+64,3983916644,83,False,True,60,False,wild,64,False,19,4,0,0,,226,132,65,0
+65,3983916644,83,False,True,60,False,vivid,65,True,18,5,0,0,,226,132,65,0
+66,3983916644,83,False,True,60,False,primal,66,False,15,7,1,0,cystcaller,226,132,65,0
+67,3983916644,83,False,True,60,False,vivid,67,True,14,7,2,0,abberarach,226,132,65,0
+68,3983916644,83,False,True,60,False,vivid,68,False,15,6,2,0,whipleg,226,132,65,0
+69,3983916644,83,False,True,60,False,vivid,69,True,14,7,2,0,whipleg,226,132,65,0
+70,2937900215,83,False,True,60,False,vivid,70,False,16,6,1,0,devourer,282,181,65,0
+71,2937900215,83,False,True,60,False,vivid,71,True,14,7,2,0,vulture,282,181,65,0
+72,2937900215,83,False,True,60,False,vivid,72,True,16,5,2,0,whipleg,282,181,65,0
+73,2937900215,83,False,True,60,False,vivid,73,False,16,6,1,0,watcher,282,181,65,0
+74,2937900215,83,False,True,60,False,vivid,74,False,16,7,0,0,,282,181,65,0
+75,2937900215,83,False,True,60,False,primal,75,True,17,5,1,0,reborn,282,181,65,0
+76,2937900215,83,False,True,60,False,primal,76,True,16,5,2,0,cystcaller,282,181,65,0
+77,2937900215,83,False,True,60,False,vivid,77,False,17,6,0,0,,282,181,65,0
+78,4256014531,83,False,True,60,False,primal,78,False,18,5,0,0,,173,100,44,0
+79,4256014531,83,False,True,60,False,vivid,79,True,13,8,2,0,abberarach,173,100,44,0
+80,4256014531,83,False,True,60,False,vivid,80,False,16,4,3,0,devourer,173,100,44,0
+81,4256014531,83,False,True,60,False,wild,81,True,13,7,2,1,bristle matron,173,100,44,0
+82,4256014531,83,False,True,60,False,vivid,82,False,19,3,1,0,abberarach,173,100,44,0
+83,4256014531,83,False,True,60,False,vivid,83,True,17,5,1,0,watcher,173,100,44,0
+84,4256014531,83,False,True,60,False,vivid,84,False,16,6,1,0,vulture,173,100,44,0
+85,4256014531,83,False,True,60,False,vivid,85,True,13,7,3,0,whipleg,173,100,44,0
+86,2626901868,83,False,True,60,False,vivid,86,False,16,6,1,0,vulture,225,142,72,0
+87,2626901868,83,False,True,60,False,vivid,87,True,13,7,3,0,watcher,225,142,72,0
+88,2626901868,83,False,True,60,False,primal,88,False,16,6,1,0,rhex matriarch,225,142,72,0
+89,2626901868,83,False,True,60,False,vivid,89,True,15,7,1,0,abberarach,225,142,72,0
+90,2626901868,83,False,True,60,False,vivid,90,True,17,4,2,0,vulture,225,142,72,0
+91,2626901868,83,False,True,60,False,vivid,91,False,15,8,0,0,,225,142,72,0
+92,2626901868,83,False,True,60,False,primal,92,True,15,7,1,0,rhex matriarch,225,142,72,0
+93,2626901868,83,False,True,60,False,vivid,93,False,19,4,0,0,,225,142,72,0
+94,3799360232,83,False,True,60,False,vivid,94,True,14,8,1,0,vulture,191,136,46,0
+95,3799360232,83,False,True,60,False,vivid,95,False,15,7,1,0,devourer,191,136,46,0
+96,3799360232,83,False,True,60,False,vivid,96,True,16,5,2,0,devourer,191,136,46,0
+97,3799360232,83,False,True,60,False,wild,97,False,14,8,1,0,infestation queen,191,136,46,0
+98,3799360232,83,False,True,60,False,vivid,98,True,15,6,2,0,whipleg,191,136,46,0
+99,3799360232,83,False,True,60,False,vivid,99,False,18,5,0,0,,191,136,46,0
+100,4093005699,83,False,True,60,False,wild,100,False,17,6,0,0,,182,119,57,0
+101,4093005699,83,False,True,60,False,vivid,101,True,14,7,2,0,whipleg,182,119,57,0
+102,4093005699,83,False,True,60,False,vivid,102,True,15,7,1,0,vulture,182,119,57,0
+103,4093005699,83,False,True,60,False,vivid,103,False,15,7,1,0,abberarach,182,119,57,0
+104,4093005699,83,False,True,60,False,vivid,104,True,14,8,1,0,watcher,182,119,57,0
+105,4093005699,83,False,True,60,False,vivid,105,False,15,7,1,0,watcher,182,119,57,0
+106,4093005699,83,False,True,60,False,wild,106,True,15,6,2,0,infestation queen,182,119,57,0
+107,4093005699,83,False,True,60,False,vivid,107,False,15,7,1,0,devourer,182,119,57,0
+108,187496683,83,False,True,60,False,primal,108,False,15,8,0,0,,175,102,46,0
+109,187496683,83,False,True,60,False,vivid,109,True,16,6,1,0,devourer,175,102,46,0
+110,187496683,83,False,True,60,False,vivid,110,False,17,6,0,0,,175,102,46,0
+111,187496683,83,False,True,60,False,vivid,111,True,16,5,2,0,vulture,175,102,46,0
+112,187496683,83,False,True,60,False,primal,112,True,14,6,3,0,rhex matriarch,175,102,46,0
+113,187496683,83,False,True,60,False,vivid,113,False,14,7,2,0,watcher,175,102,46,0
+114,187496683,83,False,True,60,False,wild,114,True,16,6,1,0,bristle matron,175,102,46,0
+115,187496683,83,False,True,60,False,vivid,115,False,20,3,0,0,,175,102,46,0
+116,1108129444,83,False,True,60,False,vivid,116,True,13,8,2,0,watcher,222,148,62,0
+117,1108129444,83,False,True,60,False,vivid,117,False,19,4,0,0,,222,148,62,0
+118,1108129444,83,False,True,60,False,wild,118,True,13,7,3,0,hellion alpha,222,148,62,0
+119,1108129444,83,False,True,60,False,vivid,119,False,17,6,0,0,,222,148,62,0
+120,1108129444,83,False,True,60,False,primal,120,True,14,7,2,0,cystcaller,222,148,62,0
+121,1108129444,83,False,True,60,False,vivid,121,False,15,7,1,0,abberarach,222,148,62,0
+122,549300440,83,False,True,60,False,vivid,122,False,20,3,0,0,,168,95,43,0
+123,549300440,83,False,True,60,False,primal,123,True,13,7,3,0,cystcaller,168,95,43,0
+124,549300440,83,False,True,60,False,vivid,124,True,14,7,2,0,devourer,168,95,43,0
+125,549300440,83,False,True,60,False,vivid,125,False,14,8,1,0,abberarach,168,95,43,0
+126,549300440,83,False,True,60,False,vivid,126,False,15,7,1,0,abberarach,168,95,43,0
+127,549300440,83,False,True,60,False,vivid,127,True,16,5,2,0,whipleg,168,95,43,0
+128,3281449343,83,False,True,60,False,vivid,128,False,17,6,0,0,,252,181,65,0
+129,3281449343,83,False,True,60,False,vivid,129,True,15,6,2,0,abberarach,252,181,65,0
+130,3281449343,83,False,True,60,False,primal,130,True,15,6,2,0,blisterlord,252,181,65,0
+131,3281449343,83,False,True,60,False,vivid,131,False,15,7,1,0,vulture,252,181,65,0
+132,3281449343,83,False,True,60,False,wild,132,False,13,8,2,0,brambleback,252,181,65,0
+133,3281449343,83,False,True,60,False,vivid,133,True,15,6,2,0,watcher,252,181,65,0
+134,3281449343,83,False,True,60,False,vivid,134,False,16,7,0,0,,252,181,65,0
+135,3281449343,83,False,True,60,False,primal,135,True,17,5,1,0,blisterlord,252,181,65,0
+136,3969840187,83,False,True,60,False,vivid,136,True,14,7,2,0,devourer,226,132,65,0
+137,3969840187,83,False,True,60,False,primal,137,False,14,7,2,0,crushclaw,226,132,65,0
+138,3969840187,83,False,True,60,False,primal,138,False,14,8,1,0,cystcaller,226,132,65,0
+139,3969840187,83,False,True,60,False,vivid,139,True,18,4,1,0,abberarach,226,132,65,0
+140,3969840187,83,False,True,60,False,vivid,140,False,20,3,0,0,,226,132,65,0
+141,3969840187,83,False,True,60,False,vivid,141,True,14,8,1,0,watcher,226,132,65,0
+142,269541029,83,False,True,60,False,vivid,142,False,15,8,0,0,,211,122,60,0
+143,269541029,83,False,True,60,False,wild,143,True,15,6,2,0,infestation queen,211,122,60,0
+144,269541029,83,False,True,60,False,vivid,144,True,16,6,1,0,devourer,211,122,60,0
+145,269541029,83,False,True,60,False,wild,145,False,16,6,1,0,infestation queen,211,122,60,0
+146,269541029,83,False,True,60,False,wild,146,False,15,8,0,0,,211,122,60,0
+147,269541029,83,False,True,60,False,vivid,147,True,18,4,1,0,whipleg,211,122,60,0
+148,1219210361,83,False,True,60,False,vivid,148,True,17,3,3,0,devourer,225,142,72,0
+149,1219210361,83,False,True,60,False,vivid,149,False,17,4,2,0,vulture,225,142,72,0
+150,1219210361,83,False,True,60,False,vivid,150,True,16,6,1,0,devourer,225,142,72,0
+151,1219210361,83,False,True,60,False,primal,151,False,18,4,1,0,crushclaw,225,142,72,0
+152,1219210361,83,False,True,60,False,wild,152,False,17,5,1,0,brambleback,225,142,72,0
+153,1219210361,83,False,True,60,False,vivid,153,True,19,3,1,0,vulture,225,142,72,0
+154,1219210361,83,False,True,60,False,vivid,154,True,14,7,2,0,whipleg,225,142,72,0
+155,1219210361,83,False,True,60,False,vivid,155,False,17,6,0,0,,225,142,72,0
+156,257120380,83,False,True,60,False,vivid,156,False,16,6,1,0,vulture,178,102,46,0
+157,257120380,83,False,True,60,False,primal,157,True,16,5,2,0,crushclaw,178,102,46,0
+158,257120380,83,False,True,60,False,wild,158,False,17,5,1,0,bristle matron,178,102,46,0
+159,257120380,83,False,True,60,False,vivid,159,True,18,4,1,0,vulture,178,102,46,0
+160,257120380,83,False,True,60,False,wild,160,False,15,8,0,0,,178,102,46,0
+161,257120380,83,False,True,60,False,vivid,161,True,15,6,2,0,watcher,178,102,46,0
+162,257120380,83,False,True,60,False,vivid,162,False,17,5,1,0,whipleg,178,102,46,0
+163,257120380,83,False,True,60,False,primal,163,True,16,5,2,0,blisterlord,178,102,46,0
+164,293524248,83,False,True,60,False,vivid,164,True,14,6,3,0,vulture,231,134,67,0
+165,293524248,83,False,True,60,False,primal,165,False,16,5,2,0,cystcaller,231,134,67,0
+166,293524248,83,False,True,60,False,vivid,166,False,16,6,1,0,devourer,231,134,67,0
+167,293524248,83,False,True,60,False,vivid,167,True,15,7,1,0,whipleg,231,134,67,0
+168,293524248,83,False,True,60,False,vivid,168,False,16,6,1,0,devourer,231,134,67,0
+169,293524248,83,False,True,60,False,vivid,169,True,16,5,2,0,whipleg,231,134,67,0
+170,293524248,83,False,True,60,False,primal,170,False,15,7,1,0,reborn,231,134,67,0
+171,293524248,83,False,True,60,False,vivid,171,True,14,8,1,0,vulture,231,134,67,0
+172,994874983,83,False,True,60,False,vivid,172,False,18,4,1,0,vulture,159,92,40,0
+173,994874983,83,False,True,60,False,vivid,173,True,16,6,1,0,watcher,159,92,40,0
+174,994874983,83,False,True,60,False,wild,174,True,13,8,2,0,bristle matron,159,92,40,0
+175,994874983,83,False,True,60,False,vivid,175,False,16,6,1,0,watcher,159,92,40,0
+176,994874983,83,False,True,60,False,primal,176,True,13,8,2,0,reborn,159,92,40,0
+177,994874983,83,False,True,60,False,vivid,177,False,18,5,0,0,,159,92,40,0
+178,994874983,83,False,True,60,False,primal,178,False,14,8,1,0,blisterlord,159,92,40,0
+179,994874983,83,False,True,60,False,vivid,179,True,16,6,1,0,vulture,159,92,40,0
+180,408432640,83,False,True,60,False,wild,180,True,15,5,3,0,infestation queen,159,92,40,0
+181,408432640,83,False,True,60,False,vivid,181,False,15,6,2,0,devourer,159,92,40,0
+182,408432640,83,False,True,60,False,vivid,182,False,18,5,0,0,,159,92,40,0
+183,408432640,83,False,True,60,False,vivid,183,True,16,6,1,0,whipleg,159,92,40,0
+184,408432640,83,False,True,60,False,vivid,184,False,16,6,1,0,devourer,159,92,40,0
+185,408432640,83,False,True,60,False,vivid,185,True,13,7,3,0,abberarach,159,92,40,0
+186,408432640,83,False,True,60,False,vivid,186,True,16,4,3,0,devourer,159,92,40,0
+187,408432640,83,False,True,60,False,wild,187,False,14,7,2,0,thornmaw,159,92,40,0
+188,2422731841,83,False,True,60,False,vivid,188,True,13,8,2,0,vulture,162,92,40,0
+189,2422731841,83,False,True,60,False,vivid,189,False,15,7,1,0,devourer,162,92,40,0
+190,2422731841,83,False,True,60,False,vivid,190,True,15,7,1,0,vulture,162,92,40,0
+191,2422731841,83,False,True,60,False,wild,191,False,16,7,0,0,,162,92,40,0
+192,2422731841,83,False,True,60,False,wild,192,True,16,6,1,0,brambleback,162,92,40,0
+193,2422731841,83,False,True,60,False,vivid,193,False,18,5,0,0,,162,92,40,0
+194,2422731841,83,False,True,60,False,vivid,194,False,18,4,1,0,vulture,162,92,40,0
+195,2422731841,83,False,True,60,False,vivid,195,True,14,7,2,0,watcher,162,92,40,0
+196,1650039693,83,False,True,60,False,vivid,196,False,17,6,0,0,,215,130,64,0
+197,1650039693,83,False,True,60,False,primal,197,True,16,6,1,0,reborn,215,130,64,0
+198,1650039693,83,False,True,60,False,vivid,198,False,16,6,1,0,devourer,215,130,64,0
+199,1650039693,83,False,True,60,False,vivid,199,True,14,6,3,0,vulture,215,130,64,0
+200,1650039693,83,False,True,60,False,primal,200,False,18,5,0,0,,215,130,64,0
+201,1650039693,83,False,True,60,False,vivid,201,True,16,6,1,0,devourer,215,130,64,0
+202,1650039693,83,False,True,60,False,wild,202,False,15,7,1,0,thornmaw,215,130,64,0
+203,1650039693,83,False,True,60,False,vivid,203,True,16,5,2,0,watcher,215,130,64,0
+204,782654742,83,False,True,60,False,vivid,204,True,16,5,2,0,vulture,154,89,38,0
+205,782654742,83,False,True,60,False,vivid,205,False,16,6,1,0,watcher,154,89,38,0
+206,782654742,83,False,True,60,False,vivid,206,True,14,6,3,0,whipleg,154,89,38,0
+207,782654742,83,False,True,60,False,vivid,207,False,16,5,2,0,devourer,154,89,38,0
+208,782654742,83,False,True,60,False,primal,208,True,15,6,2,0,crushclaw,154,89,38,0
+209,782654742,83,False,True,60,False,vivid,209,False,16,6,1,0,devourer,154,89,38,0
+210,1784380327,83,False,True,60,False,vivid,210,True,20,1,2,0,whipleg,196,117,44,0
+211,1784380327,83,False,True,60,False,primal,211,False,18,5,0,0,,196,117,44,0
+212,1784380327,83,False,True,60,False,vivid,212,True,16,4,3,0,whipleg,196,117,44,0
+213,1784380327,83,False,True,60,False,vivid,213,False,17,5,1,0,whipleg,196,117,44,0
+214,1784380327,83,False,True,60,False,vivid,214,False,19,4,0,0,,196,117,44,0
+215,1784380327,83,False,True,60,False,vivid,215,True,17,6,0,0,,196,117,44,0
+216,4051953303,83,False,True,60,False,vivid,216,False,18,5,0,0,,191,132,32,0
+217,4051953303,83,False,True,60,False,primal,217,True,15,7,1,0,blisterlord,191,132,32,0
+218,4051953303,83,False,True,60,False,vivid,218,True,14,7,2,0,watcher,191,132,32,0
+219,4051953303,83,False,True,60,False,vivid,219,False,18,5,0,0,,191,132,32,0
+220,4051953303,83,False,True,60,False,primal,220,False,14,8,1,0,cystcaller,191,132,32,0
+221,4051953303,83,False,True,60,False,vivid,221,True,14,7,2,0,devourer,191,132,32,0
+222,4051953303,83,False,True,60,False,vivid,222,True,14,7,2,0,devourer,191,132,32,0
+223,4051953303,83,False,True,60,False,vivid,223,False,15,7,1,0,abberarach,191,132,32,0
+224,3733293849,83,False,True,60,False,vivid,224,True,16,5,2,0,abberarach,189,92,40,0
+225,3733293849,83,False,True,60,False,vivid,225,False,17,6,0,0,,189,92,40,0
+226,3733293849,83,False,True,60,False,primal,226,False,15,6,2,0,rhex matriarch,189,92,40,0
+227,3733293849,83,False,True,60,False,vivid,227,True,16,5,2,0,abberarach,189,92,40,0
+228,3733293849,83,False,True,60,False,vivid,228,True,15,6,2,0,vulture,189,92,40,0
+229,3733293849,83,False,True,60,False,primal,229,False,17,5,1,0,reborn,189,92,40,0
+230,3733293849,83,False,True,60,False,primal,230,False,16,6,1,0,cystcaller,189,92,40,0
+231,3733293849,83,False,True,60,False,vivid,231,True,13,7,3,0,watcher,189,92,40,0
+232,2466092987,83,False,True,60,False,primal,232,False,16,7,0,0,,221,129,64,0
+233,2466092987,83,False,True,60,False,vivid,233,True,14,8,1,0,watcher,221,129,64,0
+234,2466092987,83,False,True,60,False,vivid,234,False,15,7,1,0,whipleg,221,129,64,0
+235,2466092987,83,False,True,60,False,wild,235,True,16,5,2,0,infestation queen,221,129,64,0
+236,2466092987,83,False,True,60,False,primal,236,False,16,6,1,0,rhex matriarch,221,129,64,0
+237,2466092987,83,False,True,60,False,vivid,237,True,14,7,2,0,devourer,221,129,64,0
+238,2466092987,83,False,True,60,False,vivid,238,False,17,5,1,0,devourer,221,129,64,0
+239,2466092987,83,False,True,60,False,wild,239,True,16,5,2,0,thornmaw,221,129,64,0
+240,2512492618,83,False,True,60,False,vivid,240,True,13,7,3,0,devourer,0,0,0,0
+241,2512492618,83,False,True,60,False,vivid,241,False,15,6,2,0,abberarach,0,0,0,0
+242,2512492618,83,False,True,60,False,wild,242,False,16,6,1,0,bristle matron,0,0,0,0
+243,2512492618,83,False,True,60,False,vivid,243,True,14,8,1,0,watcher,0,0,0,0
+244,2512492618,83,False,True,60,False,primal,244,False,17,6,0,0,,0,0,0,0
+245,2512492618,83,False,True,60,False,vivid,245,True,14,8,1,0,vulture,0,0,0,0
+246,1003375004,83,False,True,60,False,wild,246,False,15,7,1,0,brambleback,245,142,72,0
+247,1003375004,83,False,True,60,False,vivid,247,True,13,8,2,0,whipleg,245,142,72,0
+248,1003375004,83,False,True,60,False,vivid,248,False,16,6,1,0,abberarach,245,142,72,0
+249,1003375004,83,False,True,60,False,vivid,249,True,15,6,2,0,devourer,245,142,72,0
+250,1003375004,83,False,True,60,False,primal,250,False,16,7,0,0,,245,142,72,0
+251,1003375004,83,False,True,60,False,vivid,251,True,17,6,0,0,,245,142,72,0
+252,72827414,83,False,True,60,False,primal,252,False,19,4,0,0,,256,163,68,0
+253,72827414,83,False,True,60,False,vivid,253,True,16,6,1,0,watcher,256,163,68,0
+254,72827414,83,False,True,60,False,vivid,254,True,13,7,3,0,whipleg,256,163,68,0
+255,72827414,83,False,True,60,False,primal,255,False,16,5,2,0,crushclaw,256,163,68,0
+256,72827414,83,False,True,60,False,vivid,256,False,17,6,0,0,,256,163,68,0
+257,72827414,83,False,True,60,False,primal,257,True,17,5,1,0,blisterlord,256,163,68,0
+258,72827414,83,False,True,60,False,wild,258,False,15,7,1,0,brambleback,256,163,68,0
+259,72827414,83,False,True,60,False,vivid,259,True,15,6,2,0,whipleg,256,163,68,0
+260,61583751,83,False,True,60,False,vivid,260,True,15,6,2,0,watcher,259,166,70,0
+261,61583751,83,False,True,60,False,primal,261,False,20,3,0,0,,259,166,70,0
+262,61583751,83,False,True,60,False,vivid,262,False,16,6,1,0,devourer,259,166,70,0
+263,61583751,83,False,True,60,False,vivid,263,True,13,7,3,0,whipleg,259,166,70,0
+264,61583751,83,False,True,60,False,primal,264,False,16,7,0,0,,259,166,70,0
+265,61583751,83,False,True,60,False,vivid,265,True,16,7,0,0,,259,166,70,0
+266,43468096,83,False,True,60,False,vivid,266,True,16,6,1,0,vulture,256,182,64,0
+267,43468096,83,False,True,60,False,wild,267,False,15,8,0,0,,256,182,64,0
+268,43468096,83,False,True,60,False,vivid,268,True,15,6,2,0,devourer,256,182,64,0
+269,43468096,83,False,True,60,False,wild,269,False,17,5,1,0,thornmaw,256,182,64,0
+270,43468096,83,False,True,60,False,wild,270,False,16,6,1,0,brambleback,256,182,64,0
+271,43468096,83,False,True,60,False,vivid,271,True,15,6,2,0,whipleg,256,182,64,0
+272,1405892541,83,False,True,60,False,primal,272,False,17,6,0,0,,193,98,43,0
+273,1405892541,83,False,True,60,False,vivid,273,True,15,7,1,0,whipleg,193,98,43,0
+274,1405892541,83,False,True,60,False,vivid,274,True,17,6,0,0,,193,98,43,0
+275,1405892541,83,False,True,60,False,primal,275,False,18,5,0,0,,193,98,43,0
+276,1405892541,83,False,True,60,False,primal,276,False,15,7,1,0,rhex matriarch,193,98,43,0
+277,1405892541,83,False,True,60,False,vivid,277,True,16,6,1,0,whipleg,193,98,43,0
+278,179433916,83,False,True,60,False,primal,278,False,15,7,1,0,blisterlord,178,105,48,0
+279,179433916,83,False,True,60,False,vivid,279,True,16,5,2,0,devourer,178,105,48,0
+280,179433916,83,False,True,60,False,vivid,280,False,16,7,0,0,,178,105,48,0
+281,179433916,83,False,True,60,False,vivid,281,True,13,7,3,0,whipleg,178,105,48,0
+282,179433916,83,False,True,60,False,vivid,282,True,15,6,2,0,devourer,178,105,48,0
+283,179433916,83,False,True,60,False,vivid,283,False,16,6,1,0,abberarach,178,105,48,0
+284,1759526296,83,False,False,60,False,primal,284,False,15,6,2,0,reborn,65,52,0,0
+285,1759526296,83,False,False,60,False,wild,285,True,17,3,3,0,bristle matron,65,52,0,0
+286,1759526296,83,False,False,60,False,primal,286,True,12,8,3,0,rhex matriarch,65,52,0,0
+287,1759526296,83,False,False,60,False,primal,287,False,15,5,3,0,rhex matriarch,65,52,0,0
+288,1759526296,83,False,False,60,False,primal,288,False,18,4,1,0,cystcaller,65,52,0,0
+289,1759526296,83,False,False,60,False,vivid,289,True,16,6,1,0,whipleg,65,52,0,0
+290,353287517,83,False,False,60,False,wild,290,False,20,3,0,0,,48,30,0,0
+291,353287517,83,False,False,60,False,wild,291,True,14,7,2,0,thornmaw,48,30,0,0
+292,353287517,83,False,False,60,False,wild,292,True,16,6,1,0,brambleback,48,30,0,0
+293,353287517,83,False,False,60,False,wild,293,False,18,5,0,0,,48,30,0,0
+294,353287517,83,False,False,60,False,primal,294,False,19,4,0,0,,48,30,0,0
+295,353287517,83,False,False,60,False,vivid,295,True,15,7,1,0,abberarach,48,30,0,0
+296,4092119693,83,False,False,60,False,primal,296,True,13,7,3,0,cystcaller,76,48,0,0
+297,4092119693,83,False,False,60,False,vivid,297,False,15,7,1,0,vulture,76,48,0,0
+298,4092119693,83,False,False,60,False,vivid,298,True,17,4,2,0,devourer,76,48,0,0
+299,4092119693,83,False,False,60,False,primal,299,False,14,7,2,0,reborn,76,48,0,0
+300,4092119693,83,False,False,60,False,wild,300,False,16,6,1,0,infestation queen,76,48,0,0
+301,4092119693,83,False,False,60,False,wild,301,True,16,5,2,0,thornmaw,76,48,0,0
+302,4086509377,83,False,False,60,False,vivid,302,True,16,5,2,0,vulture,48,30,0,0
+303,4086509377,83,False,False,60,False,vivid,303,False,14,8,1,0,whipleg,48,30,0,0
+304,4086509377,83,False,False,60,False,wild,304,True,12,8,3,0,thornmaw,48,30,0,0
+305,4086509377,83,False,False,60,False,vivid,305,False,17,5,1,0,abberarach,48,30,0,0
+306,4086509377,83,False,False,60,False,primal,306,False,17,6,0,0,,48,30,0,0
+307,4086509377,83,False,False,60,False,vivid,307,True,15,7,1,0,whipleg,48,30,0,0
+308,937355756,83,False,False,60,False,wild,308,True,14,7,2,0,hellion alpha,48,30,0,0
+309,937355756,83,False,False,60,False,wild,309,False,18,5,0,0,,48,30,0,0
+310,937355756,83,False,False,60,False,wild,310,True,15,7,1,0,hellion alpha,48,30,0,0
+311,937355756,83,False,False,60,False,wild,311,False,16,6,1,0,hellion alpha,48,30,0,0
+312,937355756,83,False,False,60,False,vivid,312,True,14,7,2,0,abberarach,48,30,0,0
+313,937355756,83,False,False,60,False,wild,313,False,15,6,2,0,brambleback,48,30,0,0
+314,937355756,83,False,False,60,False,primal,314,True,14,7,2,0,cystcaller,48,30,0,0
+315,937355756,83,False,False,60,False,wild,315,False,18,5,0,0,,48,30,0,0
+316,3107680196,83,False,False,60,False,wild,316,True,16,5,2,0,bristle matron,48,30,0,0
+317,3107680196,83,False,False,60,False,vivid,317,False,16,6,1,0,devourer,48,30,0,0
+318,3107680196,83,False,False,60,False,vivid,318,False,17,6,0,0,,48,30,0,0
+319,3107680196,83,False,False,60,False,wild,319,True,15,6,2,0,bristle matron,48,30,0,0
+320,3107680196,83,False,False,60,False,wild,320,True,14,8,1,0,hellion alpha,48,30,0,0
+321,3107680196,83,False,False,60,False,wild,321,False,19,3,1,0,hellion alpha,48,30,0,0
+322,3107680196,83,False,False,60,False,primal,322,False,17,4,2,0,crushclaw,48,30,0,0
+323,3107680196,83,False,False,60,False,wild,323,True,15,6,2,0,infestation queen,48,30,0,0
+324,4187681853,83,False,False,60,False,vivid,324,False,16,7,0,0,,48,30,0,0
+325,4187681853,83,False,False,60,False,wild,325,True,17,5,1,0,bristle matron,48,30,0,0
+326,4187681853,83,False,False,60,False,wild,326,True,16,5,2,0,infestation queen,48,30,0,0
+327,4187681853,83,False,False,60,False,vivid,327,False,17,5,1,0,abberarach,48,30,0,0
+328,4187681853,83,False,False,60,False,wild,328,False,16,7,0,0,,48,30,0,0
+329,4187681853,83,False,False,60,False,vivid,329,True,17,5,1,0,abberarach,48,30,0,0
+330,4187681853,83,False,False,60,False,wild,330,True,15,6,2,0,hellion alpha,48,30,0,0
+331,4187681853,83,False,False,60,False,primal,331,False,14,7,2,0,reborn,48,30,0,0
+332,2118459396,83,False,False,60,False,vivid,332,True,17,5,1,0,abberarach,68,30,0,0
+333,2118459396,83,False,False,60,False,vivid,333,False,19,4,0,0,,68,30,0,0
+334,2118459396,83,False,False,60,False,vivid,334,True,14,8,1,0,whipleg,68,30,0,0
+335,2118459396,83,False,False,60,False,vivid,335,False,16,6,1,0,watcher,68,30,0,0
+336,2118459396,83,False,False,60,False,primal,336,True,13,8,2,0,crushclaw,68,30,0,0
+337,2118459396,83,False,False,60,False,primal,337,False,17,5,1,0,reborn,68,30,0,0
+338,2118459396,83,False,False,60,False,primal,338,False,15,6,2,0,blisterlord,68,30,0,0
+339,2118459396,83,False,False,60,False,vivid,339,True,15,6,2,0,vulture,68,30,0,0
+340,1985698653,83,False,False,60,False,vivid,340,True,15,7,1,0,watcher,68,30,0,0
+341,1985698653,83,False,False,60,False,primal,341,False,18,5,0,0,,68,30,0,0
+342,1985698653,83,False,False,60,False,primal,342,False,17,6,0,0,,68,30,0,0
+343,1985698653,83,False,False,60,False,primal,343,True,15,7,1,0,reborn,68,30,0,0
+344,1985698653,83,False,False,60,False,primal,344,False,14,8,1,0,crushclaw,68,30,0,0
+345,1985698653,83,False,False,60,False,primal,345,True,17,4,2,0,blisterlord,68,30,0,0
+346,3534616542,83,False,False,60,False,primal,346,True,19,3,1,0,blisterlord,90,52,0,0
+347,3534616542,83,False,False,60,False,primal,347,False,16,7,0,0,,90,52,0,0
+348,3534616542,83,False,False,60,False,primal,348,False,19,4,0,0,,90,52,0,0
+349,3534616542,83,False,False,60,False,wild,349,True,15,7,1,0,brambleback,90,52,0,0
+350,3534616542,83,False,False,60,False,wild,350,True,13,8,2,0,bristle matron,90,52,0,0
+351,3534616542,83,False,False,60,False,wild,351,False,15,7,1,0,hellion alpha,90,52,0,0
+352,3534616542,83,False,False,60,False,primal,352,False,15,8,0,0,,90,52,0,0
+353,3534616542,83,False,False,60,False,primal,353,True,13,8,2,0,reborn,90,52,0,0
+354,2260261805,83,False,False,60,False,wild,354,True,15,7,1,0,hellion alpha,68,30,0,0
+355,2260261805,83,False,False,60,False,primal,355,False,18,5,0,0,,68,30,0,0
+356,2260261805,83,False,False,60,False,vivid,356,True,16,6,1,0,abberarach,68,30,0,0
+357,2260261805,83,False,False,60,False,wild,357,False,14,8,1,0,brambleback,68,30,0,0
+358,2260261805,83,False,False,60,False,primal,358,True,15,5,3,0,cystcaller,68,30,0,0
+359,2260261805,83,False,False,60,False,vivid,359,False,16,7,0,0,,68,30,0,0
+360,2260261805,83,False,False,60,False,primal,360,False,19,3,1,0,cystcaller,68,30,0,0
+361,2260261805,83,False,False,60,False,primal,361,True,13,7,3,0,crushclaw,68,30,0,0
+362,3580405999,83,False,False,60,False,primal,362,True,16,7,0,0,,92,64,0,0
+363,3580405999,83,False,False,60,False,primal,363,False,18,5,0,0,,92,64,0,0
+364,3580405999,83,False,False,60,False,wild,364,False,17,5,1,0,brambleback,92,64,0,0
+365,3580405999,83,False,False,60,False,wild,365,True,14,7,2,0,infestation queen,92,64,0,0
+366,3580405999,83,False,False,60,False,primal,366,True,18,3,2,0,rhex matriarch,92,64,0,0
+367,3580405999,83,False,False,60,False,vivid,367,False,14,8,1,0,abberarach,92,64,0,0
+368,3763125030,83,False,False,60,False,primal,368,True,15,7,1,0,cystcaller,68,30,0,0
+369,3763125030,83,False,False,60,False,primal,369,False,17,5,1,0,rhex matriarch,68,30,0,0
+370,3763125030,83,False,False,60,False,wild,370,True,15,6,2,0,bristle matron,68,30,0,0
+371,3763125030,83,False,False,60,False,primal,371,False,17,4,2,0,reborn,68,30,0,0
+372,3763125030,83,False,False,60,False,wild,372,True,15,6,2,0,brambleback,68,30,0,0
+373,3763125030,83,False,False,60,False,primal,373,False,17,6,0,0,,68,30,0,0
+374,3763125030,83,False,False,60,False,primal,374,False,16,6,1,0,reborn,68,30,0,0
+375,3763125030,83,False,False,60,False,wild,375,True,15,5,3,0,bristle matron,68,30,0,0
+376,2314434268,83,False,False,60,False,vivid,376,True,16,5,2,0,vulture,86,62,0,0
+377,2314434268,83,False,False,60,False,primal,377,False,16,6,1,0,reborn,86,62,0,0
+378,2314434268,83,False,False,60,False,vivid,378,False,15,7,1,0,whipleg,86,62,0,0
+379,2314434268,83,False,False,60,False,vivid,379,True,15,6,2,0,whipleg,86,62,0,0
+380,2314434268,83,False,False,60,False,wild,380,True,17,6,0,0,,86,62,0,0
+381,2314434268,83,False,False,60,False,wild,381,False,18,5,0,0,,86,62,0,0
+382,2314434268,83,False,False,60,False,wild,382,False,17,6,0,0,,86,62,0,0
+383,2314434268,83,False,False,60,False,primal,383,True,17,5,1,0,crushclaw,86,62,0,0
+384,1374679377,83,False,False,60,False,primal,384,False,13,8,2,0,blisterlord,68,30,0,0
+385,1374679377,83,False,False,60,False,vivid,385,True,15,6,2,0,devourer,68,30,0,0
+386,1374679377,83,False,False,60,False,vivid,386,False,19,3,1,0,vulture,68,30,0,0
+387,1374679377,83,False,False,60,False,primal,387,True,16,5,2,0,crushclaw,68,30,0,0
+388,1374679377,83,False,False,60,False,primal,388,False,16,7,0,0,,68,30,0,0
+389,1374679377,83,False,False,60,False,primal,389,True,17,5,1,0,cystcaller,68,30,0,0
+390,2779991868,83,False,False,60,False,primal,390,False,16,7,0,0,,224,134,67,0
+391,2779991868,83,False,False,60,False,primal,391,True,16,5,2,0,reborn,224,134,67,0
+392,2779991868,83,False,False,60,False,vivid,392,False,15,7,1,0,watcher,224,134,67,0
+393,2779991868,83,False,False,60,False,vivid,393,True,17,3,3,0,vulture,224,134,67,0
+394,2779991868,83,False,False,60,False,vivid,394,True,15,7,1,0,vulture,224,134,67,0
+395,2779991868,83,False,False,60,False,vivid,395,False,18,5,0,0,,224,134,67,0
+396,2779991868,83,False,False,60,False,primal,396,True,16,6,1,0,rhex matriarch,224,134,67,0
+397,2779991868,83,False,False,60,False,primal,397,False,17,5,1,0,rhex matriarch,224,134,67,0
+398,488165612,83,False,False,60,False,primal,398,False,15,6,2,0,reborn,224,135,67,0
+399,488165612,83,False,False,60,False,primal,399,True,14,7,2,0,rhex matriarch,224,135,67,0
+400,488165612,83,False,False,60,False,vivid,400,True,17,4,2,0,whipleg,224,135,67,0
+401,488165612,83,False,False,60,False,wild,401,False,16,6,1,0,infestation queen,224,135,67,0
+402,488165612,83,False,False,60,False,wild,402,True,16,5,2,0,bristle matron,224,135,67,0
+403,488165612,83,False,False,60,False,primal,403,False,18,4,1,0,blisterlord,224,135,67,0
+404,488165612,83,False,False,60,False,wild,404,False,16,6,1,0,thornmaw,224,135,67,0
+405,488165612,83,False,False,60,False,vivid,405,True,14,7,2,0,whipleg,224,135,67,0
+406,1334796089,83,False,False,60,False,wild,406,False,16,7,0,0,,204,122,60,0
+407,1334796089,83,False,False,60,False,wild,407,True,14,7,2,0,brambleback,204,122,60,0
+408,1334796089,83,False,False,60,False,vivid,408,False,15,7,1,0,devourer,204,122,60,0
+409,1334796089,83,False,False,60,False,primal,409,True,14,7,2,0,crushclaw,204,122,60,0
+410,1334796089,83,False,False,60,False,primal,410,True,15,6,2,0,cystcaller,204,122,60,0
+411,1334796089,83,False,False,60,False,primal,411,False,17,5,1,0,rhex matriarch,204,122,60,0
+412,2250732964,83,False,False,60,False,vivid,412,True,18,4,1,0,vulture,165,87,36,0
+413,2250732964,83,False,False,60,False,primal,413,False,16,6,1,0,rhex matriarch,165,87,36,0
+414,2250732964,83,False,False,60,False,vivid,414,False,16,6,1,0,abberarach,165,87,36,0
+415,2250732964,83,False,False,60,False,vivid,415,True,15,7,1,0,devourer,165,87,36,0
+416,2250732964,83,False,False,60,False,vivid,416,True,16,6,1,0,whipleg,165,87,36,0
+417,2250732964,83,False,False,60,False,wild,417,False,16,6,1,0,infestation queen,165,87,36,0
+418,4119264441,83,False,False,60,False,primal,418,True,13,8,2,0,cystcaller,165,87,36,0
+419,4119264441,83,False,False,60,False,wild,419,False,16,7,0,0,,165,87,36,0
+420,4119264441,83,False,False,60,False,vivid,420,True,17,4,2,0,abberarach,165,87,36,0
+421,4119264441,83,False,False,60,False,primal,421,False,17,6,0,0,,165,87,36,0
+422,4119264441,83,False,False,60,False,wild,422,False,16,7,0,0,,165,87,36,0
+423,4119264441,83,False,False,60,False,wild,423,True,15,7,1,0,infestation queen,165,87,36,0
+424,1962107301,83,False,False,60,False,vivid,424,True,14,7,2,0,devourer,169,96,33,0
+425,1962107301,83,False,False,60,False,primal,425,False,19,4,0,0,,169,96,33,0
+426,1962107301,83,False,False,60,False,primal,426,False,14,8,1,0,rhex matriarch,169,96,33,0
+427,1962107301,83,False,False,60,False,vivid,427,True,15,6,2,0,devourer,169,96,33,0
+428,1962107301,83,False,False,60,False,vivid,428,False,18,4,1,0,whipleg,169,96,33,0
+429,1962107301,83,False,False,60,False,vivid,429,True,17,5,1,0,abberarach,169,96,33,0
+430,1666520929,83,False,False,60,False,vivid,430,True,15,7,1,0,vulture,186,110,33,0
+431,1666520929,83,False,False,60,False,vivid,431,False,18,5,0,0,,186,110,33,0
+432,1666520929,83,False,False,60,False,primal,432,True,14,7,2,0,reborn,186,110,33,0
+433,1666520929,83,False,False,60,False,primal,433,False,14,7,2,0,cystcaller,186,110,33,0
+434,1666520929,83,False,False,60,False,primal,434,False,16,6,1,0,crushclaw,186,110,33,0
+435,1666520929,83,False,False,60,False,vivid,435,True,14,7,2,0,abberarach,186,110,33,0
+436,3789679025,83,False,False,60,False,wild,436,False,15,6,2,0,brambleback,166,96,28,0
+437,3789679025,83,False,False,60,False,wild,437,True,14,6,3,0,bristle matron,166,96,28,0
+438,3789679025,83,False,False,60,False,wild,438,True,17,5,1,0,bristle matron,166,96,28,0
+439,3789679025,83,False,False,60,False,wild,439,False,17,5,1,0,infestation queen,166,96,28,0
+440,3789679025,83,False,False,60,False,vivid,440,True,15,7,1,0,abberarach,166,96,28,0
+441,3789679025,83,False,False,60,False,wild,441,False,15,7,1,0,infestation queen,166,96,28,0
+442,312494276,83,False,False,60,False,wild,442,True,16,5,2,0,thornmaw,181,97,43,0
+443,312494276,83,False,False,60,False,primal,443,False,17,6,0,0,,181,97,43,0
+444,312494276,83,False,False,60,False,vivid,444,True,16,6,1,0,whipleg,181,97,43,0
+445,312494276,83,False,False,60,False,vivid,445,False,17,5,1,0,whipleg,181,97,43,0
+446,312494276,83,False,False,60,False,vivid,446,True,15,7,1,0,devourer,181,97,43,0
+447,312494276,83,False,False,60,False,wild,447,False,16,6,1,0,infestation queen,181,97,43,0
+448,3477806996,83,False,False,60,False,vivid,448,False,14,8,1,0,watcher,212,120,48,0
+449,3477806996,83,False,False,60,False,primal,449,True,14,7,2,0,cystcaller,212,120,48,0
+450,3477806996,83,False,False,60,False,primal,450,False,17,6,0,0,,212,120,48,0
+451,3477806996,83,False,False,60,False,vivid,451,True,17,3,3,0,whipleg,212,120,48,0
+452,3477806996,83,False,False,60,False,primal,452,False,16,6,1,0,crushclaw,212,120,48,0
+453,3477806996,83,False,False,60,False,vivid,453,True,14,7,2,0,vulture,212,120,48,0
+454,3477806996,83,False,False,60,False,wild,454,True,15,6,1,1,thornmaw,212,120,48,0
+455,3477806996,83,False,False,60,False,wild,455,False,15,7,1,0,bristle matron,212,120,48,0
+456,4165849173,83,False,False,60,False,primal,456,False,17,5,1,0,cystcaller,141,74,28,0
+457,4165849173,83,False,False,60,False,vivid,457,True,15,6,2,0,whipleg,141,74,28,0
+458,4165849173,83,False,False,60,False,vivid,458,True,14,8,1,0,devourer,141,74,28,0
+459,4165849173,83,False,False,60,False,vivid,459,False,14,8,1,0,vulture,141,74,28,0
+460,4165849173,83,False,False,60,False,vivid,460,True,16,5,2,0,devourer,141,74,28,0
+461,4165849173,83,False,False,60,False,primal,461,False,15,6,2,0,rhex matriarch,141,74,28,0
+462,4165849173,83,False,False,60,False,primal,462,True,15,6,2,0,crushclaw,141,74,28,0
+463,4165849173,83,False,False,60,False,primal,463,False,16,7,0,0,,141,74,28,0
+464,4021909646,83,False,False,60,False,vivid,464,False,17,5,1,0,whipleg,160,84,35,0
+465,4021909646,83,False,False,60,False,wild,465,True,14,7,2,0,thornmaw,160,84,35,0
+466,4021909646,83,False,False,60,False,wild,466,True,18,4,1,0,thornmaw,160,84,35,0
+467,4021909646,83,False,False,60,False,wild,467,False,16,7,0,0,,160,84,35,0
+468,4021909646,83,False,False,60,False,vivid,468,False,16,6,1,0,vulture,160,84,35,0
+469,4021909646,83,False,False,60,False,primal,469,True,13,8,2,0,rhex matriarch,160,84,35,0
+470,4246711542,83,False,False,60,False,wild,470,False,17,6,0,0,,156,81,33,0
+471,4246711542,83,False,False,60,False,vivid,471,True,18,3,2,0,watcher,156,81,33,0
+472,4246711542,83,False,False,60,False,primal,472,False,17,5,1,0,rhex matriarch,156,81,33,0
+473,4246711542,83,False,False,60,False,primal,473,True,16,5,2,0,reborn,156,81,33,0
+474,4246711542,83,False,False,60,False,primal,474,False,16,6,1,0,rhex matriarch,156,81,33,0
+475,4246711542,83,False,False,60,False,vivid,475,True,16,6,1,0,watcher,156,81,33,0
+476,4246711542,83,False,False,60,False,primal,476,True,14,8,1,0,crushclaw,156,81,33,0
+477,4246711542,83,False,False,60,False,primal,477,False,18,5,0,0,,156,81,33,0
+478,2824089592,83,False,False,60,False,vivid,478,False,16,7,0,0,,146,76,30,0
+479,2824089592,83,False,False,60,False,vivid,479,True,15,6,2,0,whipleg,146,76,30,0
+480,2824089592,83,False,False,60,False,primal,480,False,18,5,0,0,,146,76,30,0
+481,2824089592,83,False,False,60,False,primal,481,True,16,6,1,0,blisterlord,146,76,30,0
+482,2824089592,83,False,False,60,False,primal,482,False,17,6,0,0,,146,76,30,0
+483,2824089592,83,False,False,60,False,primal,483,True,16,4,3,0,cystcaller,146,76,30,0
+484,903645281,83,False,False,60,False,vivid,484,True,15,7,1,0,whipleg,156,82,33,0
+485,903645281,83,False,False,60,False,vivid,485,False,16,6,1,0,watcher,156,82,33,0
+486,903645281,83,False,False,60,False,wild,486,True,13,8,2,0,brambleback,156,82,33,0
+487,903645281,83,False,False,60,False,wild,487,False,15,7,1,0,bristle matron,156,82,33,0
+488,903645281,83,False,False,60,False,wild,488,True,14,7,2,0,hellion alpha,156,82,33,0
+489,903645281,83,False,False,60,False,wild,489,False,16,6,1,0,infestation queen,156,82,33,0
+490,903645281,83,False,False,60,False,wild,490,False,15,6,2,0,hellion alpha,156,82,33,0
+491,903645281,83,False,False,60,False,vivid,491,True,15,6,2,0,abberarach,156,82,33,0
+492,160786842,83,False,False,60,False,primal,492,False,18,5,0,0,,153,81,33,0
+493,160786842,83,False,False,60,False,primal,493,True,14,8,1,0,reborn,153,81,33,0
+494,160786842,83,False,False,60,False,wild,494,False,18,4,1,0,bristle matron,153,81,33,0
+495,160786842,83,False,False,60,False,wild,495,True,14,7,2,0,hellion alpha,153,81,33,0
+496,160786842,83,False,False,60,False,vivid,496,False,15,7,1,0,whipleg,153,81,33,0
+497,160786842,83,False,False,60,False,vivid,497,True,16,5,2,0,whipleg,153,81,33,0
+498,3673740539,83,False,False,60,False,vivid,498,True,17,6,0,0,,162,87,36,0
+499,3673740539,83,False,False,60,False,vivid,499,False,18,5,0,0,,162,87,36,0
+500,3673740539,83,False,False,60,False,wild,500,True,16,6,1,0,hellion alpha,162,87,36,0
+501,3673740539,83,False,False,60,False,primal,501,False,17,5,1,0,cystcaller,162,87,36,0
+502,3673740539,83,False,False,60,False,primal,502,False,16,5,2,0,crushclaw,162,87,36,0
+503,3673740539,83,False,False,60,False,wild,503,True,13,8,2,0,infestation queen,162,87,36,0
+504,257327753,83,False,False,60,False,primal,504,False,18,4,1,0,reborn,173,111,32,0
+505,257327753,83,False,False,60,False,primal,505,True,17,5,1,0,blisterlord,173,111,32,0
+506,257327753,83,False,False,60,False,vivid,506,True,15,7,1,0,watcher,173,111,32,0
+507,257327753,83,False,False,60,False,vivid,507,False,15,7,1,0,watcher,173,111,32,0
+508,257327753,83,False,False,60,False,vivid,508,False,17,5,1,0,vulture,173,111,32,0
+509,257327753,83,False,False,60,False,vivid,509,True,16,6,1,0,abberarach,173,111,32,0
+510,257327753,83,False,False,60,False,vivid,510,True,14,7,2,0,abberarach,173,111,32,0
+511,257327753,83,False,False,60,False,vivid,511,False,16,6,1,0,abberarach,173,111,32,0
+512,1425481433,83,False,False,60,False,wild,512,True,16,5,2,0,thornmaw,68,30,0,0
+513,1425481433,83,False,False,60,False,primal,513,False,19,4,0,0,,68,30,0,0
+514,1425481433,83,False,False,60,False,vivid,514,True,17,5,1,0,abberarach,68,30,0,0
+515,1425481433,83,False,False,60,False,primal,515,False,16,6,1,0,reborn,68,30,0,0
+516,1425481433,83,False,False,60,False,primal,516,False,16,5,2,0,cystcaller,68,30,0,0
+517,1425481433,83,False,False,60,False,vivid,517,True,13,8,1,1,devourer,68,30,0,0
+518,1425481433,83,False,False,60,False,primal,518,False,16,7,0,0,,68,30,0,0
+519,1425481433,83,False,False,60,False,vivid,519,True,16,6,0,1,,68,30,0,0
+520,96802153,83,False,False,60,False,vivid,520,True,16,6,1,0,whipleg,68,30,0,0
+521,96802153,83,False,False,60,False,primal,521,False,16,6,1,0,reborn,68,30,0,0
+522,96802153,83,False,False,60,False,wild,522,False,18,5,0,0,,68,30,0,0
+523,96802153,83,False,False,60,False,wild,523,True,16,6,1,0,brambleback,68,30,0,0
+524,96802153,83,False,False,60,False,wild,524,True,14,8,1,0,thornmaw,68,30,0,0
+525,96802153,83,False,False,60,False,wild,525,False,15,7,1,0,bristle matron,68,30,0,0
+526,3760424770,83,False,False,60,False,primal,526,False,15,7,1,0,reborn,151,79,32,0
+527,3760424770,83,False,False,60,False,vivid,527,True,20,2,1,0,watcher,151,79,32,0
+528,3760424770,83,False,False,60,False,vivid,528,True,14,7,2,0,devourer,151,79,32,0
+529,3760424770,83,False,False,60,False,wild,529,False,16,7,0,0,,151,79,32,0
+530,3760424770,83,False,False,60,False,wild,530,False,19,4,0,0,,151,79,32,0
+531,3760424770,83,False,False,60,False,wild,531,True,18,5,0,0,,151,79,32,0
+532,4071714241,83,False,False,60,False,wild,532,False,16,6,1,0,hellion alpha,151,81,32,0
+533,4071714241,83,False,False,60,False,wild,533,True,15,7,1,0,hellion alpha,151,81,32,0
+534,4071714241,83,False,False,60,False,wild,534,False,15,8,0,0,,151,81,32,0
+535,4071714241,83,False,False,60,False,vivid,535,True,14,7,2,0,watcher,151,81,32,0
+536,4071714241,83,False,False,60,False,wild,536,False,17,6,0,0,,151,81,32,0
+537,4071714241,83,False,False,60,False,vivid,537,True,15,7,1,0,vulture,151,81,32,0
+538,910621417,83,False,False,60,False,wild,538,True,15,6,2,0,bristle matron,176,99,35,0
+539,910621417,83,False,False,60,False,wild,539,False,17,6,0,0,,176,99,35,0
+540,910621417,83,False,False,60,False,wild,540,True,16,5,2,0,hellion alpha,176,99,35,0
+541,910621417,83,False,False,60,False,primal,541,False,17,5,1,0,blisterlord,176,99,35,0
+542,910621417,83,False,False,60,False,vivid,542,False,15,7,1,0,watcher,176,99,35,0
+543,910621417,83,False,False,60,False,primal,543,True,16,5,2,0,cystcaller,176,99,35,0
+544,910621417,83,False,False,60,False,primal,544,False,13,8,2,0,cystcaller,176,99,35,0
+545,910621417,83,False,False,60,False,vivid,545,True,13,8,2,0,abberarach,176,99,35,0
+546,2474590862,83,True,False,30,True,wild,546,True,15,7,1,0,hellion alpha,53,15,0,0
+547,2474590862,83,True,False,30,True,primal,547,False,17,6,0,0,,53,15,0,0
+548,2474590862,83,True,False,30,True,vivid,548,True,16,6,1,0,abberarach,53,15,0,0
+549,2474590862,83,True,False,30,True,vivid,549,False,16,6,1,0,abberarach,53,15,0,0
+550,2474590862,83,True,False,30,True,vivid,550,True,15,6,2,0,devourer,53,15,0,0
+551,2474590862,83,True,False,30,True,wild,551,False,15,7,1,0,brambleback,53,15,0,0
+552,3018811649,83,True,False,30,True,primal,552,False,16,7,0,0,,53,15,0,0
+553,3018811649,83,True,False,30,True,wild,553,True,17,5,1,0,bristle matron,53,15,0,0
+554,3018811649,83,True,False,30,True,wild,554,True,19,3,1,0,bristle matron,53,15,0,0
+555,3018811649,83,True,False,30,True,wild,555,False,19,4,0,0,,53,15,0,0
+556,3018811649,83,True,False,30,True,vivid,556,True,15,7,1,0,devourer,53,15,0,0
+557,3018811649,83,True,False,30,True,primal,557,False,16,7,0,0,,53,15,0,0
+558,3018811649,83,True,False,30,True,vivid,558,True,14,7,2,0,devourer,53,15,0,0
+559,3018811649,83,True,False,30,True,vivid,559,False,18,5,0,0,,53,15,0,0
+560,189867974,83,True,False,30,True,vivid,560,True,15,6,2,0,watcher,53,15,0,0
+561,189867974,83,True,False,30,True,vivid,561,False,16,6,1,0,devourer,53,15,0,0
+562,189867974,83,True,False,30,True,wild,562,False,17,6,0,0,,53,15,0,0
+563,189867974,83,True,False,30,True,wild,563,True,16,5,2,0,bristle matron,53,15,0,0
+564,189867974,83,True,False,30,True,vivid,564,False,18,5,0,0,,53,15,0,0
+565,189867974,83,True,False,30,True,vivid,565,True,15,7,1,0,watcher,53,15,0,0
+566,189867974,83,True,False,30,True,primal,566,True,16,5,2,0,rhex matriarch,53,15,0,0
+567,189867974,83,True,False,30,True,primal,567,False,16,6,1,0,cystcaller,53,15,0,0
+568,189867974,83,True,False,30,True,primal,568,True,15,7,1,0,rhex matriarch,53,15,0,0
+569,189867974,83,True,False,30,True,primal,569,False,17,6,0,0,,53,15,0,0
+570,3426809522,83,True,False,30,True,vivid,570,True,15,6,2,0,watcher,53,15,0,0
+571,3426809522,83,True,False,30,True,primal,571,False,15,6,2,0,cystcaller,53,15,0,0
+572,3426809522,83,True,False,30,True,vivid,572,True,16,6,1,0,vulture,53,15,0,0
+573,3426809522,83,True,False,30,True,primal,573,False,14,8,1,0,cystcaller,53,15,0,0
+574,3426809522,83,True,False,30,True,wild,574,False,20,2,1,0,infestation queen,53,15,0,0
+575,3426809522,83,True,False,30,True,vivid,575,True,14,7,1,1,abberarach,53,15,0,0
+576,1023084392,83,True,False,30,True,primal,576,True,16,6,1,0,blisterlord,53,15,0,0
+577,1023084392,83,True,False,30,True,primal,577,False,17,5,1,0,reborn,53,15,0,0
+578,1023084392,83,True,False,30,True,wild,578,True,15,6,2,0,thornmaw,53,15,0,0
+579,1023084392,83,True,False,30,True,primal,579,False,16,6,1,0,reborn,53,15,0,0
+580,1023084392,83,True,False,30,True,vivid,580,True,14,7,2,0,watcher,53,15,0,0
+581,1023084392,83,True,False,30,True,vivid,581,False,15,6,2,0,whipleg,53,15,0,0
+582,1023084392,83,True,False,30,True,vivid,582,True,13,7,3,0,watcher,53,15,0,0
+583,1023084392,83,True,False,30,True,vivid,583,False,16,6,1,0,abberarach,53,15,0,0
+584,1959298894,83,True,False,30,True,primal,584,True,15,7,1,0,cystcaller,53,15,0,0
+585,1959298894,83,True,False,30,True,primal,585,False,18,4,1,0,rhex matriarch,53,15,0,0
+586,1959298894,83,True,False,30,True,vivid,586,True,17,5,1,0,vulture,53,15,0,0
+587,1959298894,83,True,False,30,True,vivid,587,False,18,5,0,0,,53,15,0,0
+588,1959298894,83,True,False,30,True,vivid,588,True,15,5,3,0,vulture,53,15,0,0
+589,1959298894,83,True,False,30,True,vivid,589,False,16,5,2,0,vulture,53,15,0,0
+590,1959298894,83,True,False,30,True,vivid,590,True,15,7,1,0,watcher,53,15,0,0
+591,1959298894,83,True,False,30,True,vivid,591,False,19,3,1,0,devourer,53,15,0,0
+592,1888451233,83,True,False,30,True,primal,592,False,17,5,1,0,cystcaller,53,15,0,0
+593,1888451233,83,True,False,30,True,vivid,593,True,13,8,2,0,watcher,53,15,0,0
+594,1888451233,83,True,False,30,True,primal,594,False,17,6,0,0,,53,15,0,0
+595,1888451233,83,True,False,30,True,primal,595,True,16,6,1,0,blisterlord,53,15,0,0
+596,1888451233,83,True,False,30,True,vivid,596,True,17,6,0,0,,53,15,0,0
+597,1888451233,83,True,False,30,True,primal,597,False,17,6,0,0,,53,15,0,0
+598,1888451233,83,True,False,30,True,wild,598,True,16,6,1,0,brambleback,53,15,0,0
+599,1888451233,83,True,False,30,True,wild,599,False,16,6,1,0,hellion alpha,53,15,0,0
+600,4027650650,83,True,False,30,True,vivid,600,True,17,5,1,0,whipleg,53,15,0,0
+601,4027650650,83,True,False,30,True,vivid,601,False,17,5,1,0,vulture,53,15,0,0
+602,4027650650,83,True,False,30,True,primal,602,False,18,5,0,0,,53,15,0,0
+603,4027650650,83,True,False,30,True,vivid,603,True,17,6,0,0,,53,15,0,0
+604,4027650650,83,True,False,30,True,primal,604,True,14,7,2,0,reborn,53,15,0,0
+605,4027650650,83,True,False,30,True,primal,605,False,16,6,1,0,rhex matriarch,53,15,0,0
+606,4027650650,83,True,False,30,True,vivid,606,True,16,6,1,0,whipleg,53,15,0,0
+607,4027650650,83,True,False,30,True,wild,607,False,16,7,0,0,,53,15,0,0
+608,4044986007,83,True,False,30,True,primal,608,True,13,8,2,0,rhex matriarch,53,15,0,0
+609,4044986007,83,True,False,30,True,primal,609,False,16,6,1,0,crushclaw,53,15,0,0
+610,4044986007,83,True,False,30,True,wild,610,False,18,5,0,0,,53,15,0,0
+611,4044986007,83,True,False,30,True,primal,611,True,16,6,1,0,reborn,53,15,0,0
+612,4044986007,83,True,False,30,True,primal,612,True,16,5,2,0,rhex matriarch,53,15,0,0
+613,4044986007,83,True,False,30,True,primal,613,False,17,6,0,0,,53,15,0,0
+614,4044986007,83,True,False,30,True,vivid,614,False,16,6,1,0,devourer,53,15,0,0
+615,4044986007,83,True,False,30,True,vivid,615,True,14,8,1,0,devourer,53,15,0,0
+616,4044986007,83,True,False,30,True,primal,616,False,18,5,0,0,,53,15,0,0
+617,4044986007,83,True,False,30,True,vivid,617,True,16,6,1,0,whipleg,53,15,0,0
+618,2062735235,83,True,False,30,True,wild,618,True,16,7,0,0,,143,63,31,0
+619,2062735235,83,True,False,30,True,primal,619,False,16,7,0,0,,143,63,31,0
+620,2062735235,83,True,False,30,True,wild,620,False,16,6,1,0,hellion alpha,143,63,31,0
+621,2062735235,83,True,False,30,True,primal,621,True,17,4,2,0,rhex matriarch,143,63,31,0
+622,2062735235,83,True,False,30,True,wild,622,True,16,6,1,0,brambleback,143,63,31,0
+623,2062735235,83,True,False,30,True,vivid,623,False,17,6,0,0,,143,63,31,0
+624,2062735235,83,True,False,30,True,wild,624,False,16,5,2,0,bristle matron,143,63,31,0
+625,2062735235,83,True,False,30,True,vivid,625,True,15,6,2,0,vulture,143,63,31,0
+626,2746774381,83,True,False,30,True,wild,626,True,16,6,1,0,hellion alpha,131,56,27,0
+627,2746774381,83,True,False,30,True,vivid,627,False,20,3,0,0,,131,56,27,0
+628,2746774381,83,True,False,30,True,primal,628,True,13,8,2,0,blisterlord,131,56,27,0
+629,2746774381,83,True,False,30,True,primal,629,False,17,5,1,0,crushclaw,131,56,27,0
+630,2746774381,83,True,False,30,True,primal,630,False,17,5,1,0,blisterlord,131,56,27,0
+631,2746774381,83,True,False,30,True,primal,631,True,14,6,3,0,blisterlord,131,56,27,0
+632,3968954490,83,True,False,30,True,primal,632,False,18,5,0,0,,155,68,35,0
+633,3968954490,83,True,False,30,True,primal,633,True,15,7,1,0,blisterlord,155,68,35,0
+634,3968954490,83,True,False,30,True,vivid,634,True,15,8,0,0,,155,68,35,0
+635,3968954490,83,True,False,30,True,vivid,635,False,17,6,0,0,,155,68,35,0
+636,3968954490,83,True,False,30,True,wild,636,False,17,5,1,0,brambleback,155,68,35,0
+637,3968954490,83,True,False,30,True,vivid,637,True,14,7,2,0,abberarach,155,68,35,0
+638,3968954490,83,True,False,30,True,wild,638,True,14,7,2,0,hellion alpha,155,68,35,0
+639,3968954490,83,True,False,30,True,wild,639,False,16,5,2,0,bristle matron,155,68,35,0
