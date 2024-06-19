@@ -1,12 +1,9 @@
 from collections import defaultdict
 from typing import Tuple
-import functools
 from dataclasses import dataclass
-import copy
 import scipy
 import itertools
 import numpy as np
-
 
 PACK_SIZE_MULTIPLIER = 1/2.6
 
